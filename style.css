@@ -174,8 +174,10 @@ button {
 .mezzanine {
     flex-grow: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    background-color: #3882F6;
+    margin: 5% 15%;
 }
 
 .footer {
@@ -184,5 +186,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    color: white;
 }
 
