@@ -174,10 +174,40 @@ button {
 .mezzanine {
     flex-grow: 1;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
     margin: 5% 15%;
+    padding: 50px 0px;
+    width: 1000px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.mezzanine .text {
+    color: white;
+
+}
+
+.call-to {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.signup {
+    border: 2px solid white;
+    text-align: center;
+    padding: 2px 25px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+
+.undertext {
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-size: 18px;
 }
 
 .footer {
@@ -188,5 +218,6 @@ button {
     align-items: center;
     background-color: #1F2937;
     color: white;
+    padding: 30px 0px;
 }
 
